@@ -1,0 +1,207 @@
+html,
+body {
+  font-family: "Noto Sans KR", sans-serif;
+  background-color: #353b48;
+}
+
+.myPhone {
+  margin: 20px;
+  width: 400px;
+  height: 850px;
+  background-color: #f3f2f8;
+  position: relative;
+}
+
+.top {
+  width: 400px;
+  height: 85px;
+  background-color: #ffffff;
+  border-bottom: 0.5px solid #dfe6e9;
+}
+
+.topIn {
+  width: 400px;
+  height: 40px;
+  display: flex;
+  justify-content: space-between;
+}
+.topIn__time {
+  font-size: 14px;
+  font-weight: 600;
+  margin: 12px 25px;
+}
+.topIn__icon {
+  margin: 12px 20px;
+  font-weight: 600;
+  font-size: 12px;
+}
+.topIn__icon i:nth-child(1) {
+  padding-right: 2px;
+}
+
+.topIn__bottom {
+  display: flex;
+  justify-content: space-between;
+  font-size: 16px;
+}
+.topIn__right {
+  width: 100px;
+  height: 20px;
+}
+.topIn__bottom span {
+  margin-top: 10px;
+}
+.topIn__left {
+  margin-left: 15px;
+}
+.topIn__middle {
+  font-weight: 600;
+}
+.blue {
+  color: #0471f1;
+}
+.page {
+  position: absolute;
+  width: 400px;
+  height: 670px;
+}
+.box {
+  margin: 35px 0px;
+  width: 400px;
+  height: 70px;
+  background-color: #ffffff;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  box-shadow: 0px 1px 1px #dfe6e9, 0px -1px 1px #dfe6e9;
+}
+.box__left {
+  display: flex;
+  align-items: center;
+}
+
+.box__photo {
+  margin-left: 15px;
+  width: 55px;
+  height: 55px;
+  background: url("images/itsme.jpg");
+  background-size: cover;
+  border-radius: 40px;
+  border: 1px solid #626870;
+  position: relative;
+}
+.box__photoPlus {
+  top: 35px;
+  left: 35px;
+  width: 20px;
+  height: 20px;
+  background-color: #0471f1;
+  color: white;
+  font-size: 12px;
+  border-radius: 50%;
+  position: absolute;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.box__status {
+  margin-left: 8px;
+  display: flex;
+  flex-direction: column;
+}
+.myStatus {
+  font-size: 15px;
+  font-weight: 600;
+}
+.statusPlus {
+  font-size: 12px;
+  opacity: 0.6;
+}
+.box__btn {
+  margin: 0px 5px;
+  width: 35px;
+  height: 35px;
+  border-radius: 50%;
+  background-color: #ebf6f8;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.box__right {
+  margin-right: 10px;
+  display: flex;
+  align-items: center;
+}
+.boxUpTitle {
+  margin-left: 20px;
+  margin-bottom: -30px;
+  font-size: 12px;
+  opacity: 0.6;
+}
+.box__dashed {
+  margin-left: 15px;
+  width: 55px;
+  height: 55px;
+  border-radius: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #ffffff;
+  border: 2px dashed #0471f1;
+}
+.box__green {
+  width: 50px;
+  height: 50px;
+  background: url("https://skynewsngr.com/wp-content/uploads/2019/01/whatsapp-512.png");
+  background-size: cover;
+  border-radius: 50%;
+  position: relative;
+}
+.box__greenText {
+  margin-left: 10px;
+  color: #218c74;
+  font-size: 13px;
+  font-weight: 500;
+}
+.box__greenText i {
+  color: #3cc768;
+}
+
+.nav {
+  bottom: 0px;
+  position: absolute;
+  width: 400px;
+  height: 85px;
+  background-color: #ffffff;
+  border-top: 0.5px solid #dfe6e9;
+  list-style: none;
+  display: flex;
+  justify-content: space-around;
+}
+
+.nav__icon {
+  padding: 5px;
+  font-size: 25px;
+  opacity: 0.3;
+}
+.blue {
+  opacity: 1;
+}
+.smallBox {
+  width: 50px;
+  height: 50px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.nav__text {
+  margin-top: -5px;
+  font-size: 10px;
+}
+
+a {
+  color: inherit;
+  text-decoration: none;
+}
