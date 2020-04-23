@@ -1,0 +1,45 @@
+.top {
+  width: 400px;
+  height: 85px;
+  background-color: #f6f6f6;
+  border-bottom: 0.5px solid #dfe6e9;
+}
+
+.topIn {
+  width: 400px;
+  height: 40px;
+  display: flex;
+  justify-content: space-between;
+}
+.topIn__time {
+  font-size: 14px;
+  font-weight: 600;
+  margin: 12px 25px;
+}
+.topIn__icon {
+  margin: 12px 20px;
+  font-weight: 600;
+  font-size: 12px;
+}
+.topIn__icon i:nth-child(1) {
+  padding-right: 2px;
+}
+
+.topIn__bottom {
+  margin: 0px 20px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  font-size: 16px;
+}
+
+.topIn__bottom span {
+  margin-top: 10px;
+}
+.topIn__rightI {
+  width: 80px;
+}
+
+.topIn__middle {
+  font-weight: 600;
+}
